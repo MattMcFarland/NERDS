@@ -15,8 +15,14 @@ NERS only requires a barebones linux system, with only compiling tools installed
 1. Login to your machine via ssh
 2. Make sure compiling tools are installed 
 
+CentOS
 ```bash
-sudo [yum/apt-get] install gcc gpp make gcc-c++ gcc-gpp git wget curl -y
+sudo yum install gcc gpp make gcc-c++ gcc-gpp git wget curl -y
+```
+
+Ubuntu
+```bash
+sudo apt-get gcc gpp make gcc-c++ gcc-gpp git wget curl -y
 ```
 
 3. Install NERS
