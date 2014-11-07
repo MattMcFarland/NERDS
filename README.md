@@ -4,11 +4,9 @@ NERS
 Node Express Ruby Stack VM Boilerplate
 
 
-NERS is a lightweight web application development stack to run in a linux environment.  It is designed to work locally only on a per user service.
+NERS is a lightweight web application development stack to run in a linux environment.  Node, Express, and Ruby will run only under your user's home directory, so you won't have to deal with annoying sudo commands.  The stack will be installed in ~/.local to avoid any conflicts with your system or other users.
 
-Node, Express, and Ruby will run only under your user's home directory, so you won't have to deal with annoying sudo commands.
-
-NERS only requires a barebones linux system, with only compiling tools installed.
+NERS only requires a barebones linux system with compiling tools installed.
 
 ### How to install
 
