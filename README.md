@@ -29,8 +29,6 @@ sudo apt-get gcc gpp make gcc-c++ gcc-gpp g++ git wget curl -y
 curl -L https://raw.githubusercontent.com/MattMcFarland/NERS/master/install.sh | bash
 ```
 
-#### Exit and re-enter your terminal
-
 #### Confirm Installation
 
 ```
