@@ -12,7 +12,6 @@ NERS only requires a barebones linux system, with only compiling tools installed
 
 ### How to install
 
-#### Login to your machine via ssh
 #### Make sure compiling tools are installed 
 
 CentOS/RHEL
