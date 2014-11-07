@@ -18,12 +18,15 @@ NERS only requires a barebones linux system, with only compiling tools installed
 ```bash
 sudo yum/apt-get install gcc gpp make gcc-c++ gcc-gpp git -y
 cd ~
+```
 
+3. Install NERS
+```
 curl -L https://raw.githubusercontent.com/MattMcFarland/NERS/master/install.
 sh | bash
 ```
 
-3. Confirm your installation
+4. Confirm your installation
 
 ```
 node --version
