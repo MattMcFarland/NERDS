@@ -18,9 +18,12 @@ wget http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz && tar xzvf ruby*
 
 ./configure --prefix ~/.local && make && make install
 
-echo export PATH=$PATH:~/.local/bin >> ~/.bashrc
-echo export PATH=$PATH:~/.local/lib/bin >> ~/.bashrc
+echo export PATH=$PATH:~/.local/bin >> ~/.ners_rc
+echo export PATH=$PATH:~/.local/lib/bin >> ~/.ners_rc
+echo node --version && npm --version && ruby --version >> ~/.ners_rc
+echo source ~/.ners_rc >> ~/.bashrc
+source ~/.bashrc
 
-~/.local/lib/bin/npm install express grunt bower -g
+npm install express grunt bower -g
 
-echo NERS Installed! Please exit this terminal and return to finish.
+echo Welcome to NERS
