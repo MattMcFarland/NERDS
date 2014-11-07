@@ -15,14 +15,14 @@ NERS only requires a barebones linux system, with only compiling tools installed
 1. Login to your machine via ssh
 2. Make sure compiling tools are installed 
 
-CentOS
+CentOS/RHEL
 ```bash
 sudo yum install gcc gpp make gcc-c++ gcc-gpp git wget curl -y
 ```
 
-Ubuntu
+Ubuntu/Debian
 ```bash
-sudo apt-get gcc gpp make gcc-c++ gcc-gpp git wget curl -y
+sudo apt-get gcc gpp make gcc-c++ gcc-gpp g++ git wget curl -y
 ```
 
 3. Install NERS
@@ -30,12 +30,14 @@ sudo apt-get gcc gpp make gcc-c++ gcc-gpp git wget curl -y
 curl -L https://raw.githubusercontent.com/MattMcFarland/NERS/master/install.sh | bash
 ```
 
-4. Confirm your installation
+4. Exit and re-enter your terminal
+
+5. See version:
 
 ```
 node --version
 npm --version
-rvm --version
+ruby --version
 ```
 
 now get your dev on :)
