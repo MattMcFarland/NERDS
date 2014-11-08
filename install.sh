@@ -33,11 +33,18 @@ make > $HOME/.src/log/ruby-2.1.4.log && make install >> $HOME/.src/log/ruby-2.1.
 echo Configuring PATH variables
 echo export PATH=$PATH:~/.local/bin > ~/.ners_rc
 echo export PATH=$PATH:~/.local/lib/bin >> ~/.ners_rc
-echo node --version && npm --version && ruby --version >> ~/.ners_rc
-echo source ~/.ners_rc >> ~/.bashrc
-source ~/.bashrc
+echo source $HOME/.ners_rc >> ~/.bashrc
+source $HOME/.bashrc
 
 npm install express grunt bower -g
-chmod -R 700 .local
+chmod -R 700 $HOME/.local
 
 echo Welcome to NERS
+echo NodeJS
+node --version
+echo Ruby
+ruby --version
+echo Ruby Gem
+gem --version
+echo Python
+python --version
