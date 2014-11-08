@@ -1,5 +1,4 @@
 #!bin/bash
-set -v off 
 echo NERS Installer v1.0.0  - This process will take up to 45 minutes.
 # Make basic scaffold
 cd $HOME
@@ -16,12 +15,12 @@ curl https://www.python.org/ftp/python/2.7.6/Python-2.7.6.tar.xz > Python-2.7.6.
 
 # Install NodeJS
 cd $HOME/.src
-curl http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz > node-v0.10.33 && tar -xzvf node*.gz && cd node*
+curl http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz > node-v0.10.33.tar.gz && tar -xzvf node*.gz && cd node*
 ./configure --prefix $HOME/.local && make && make install
 
 # Install Ruby
 cd $HOME/.src
-curl http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz > ruby-2.1.4 && tar -xzvf ruby-2.1.4.tar.gz && cd ruby-2.1.4
+curl http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz > ruby-2.1.4.tar.gz && tar -xzvf ruby-2.1.4.tar.gz && cd ruby-2.1.4
 ./configure --prefix $HOME/.local && make && make install
 
 # Setup PATH exports
@@ -35,11 +34,3 @@ npm install express grunt bower -g
 chmod -R 700 $HOME/.local
 
 echo Welcome to NERS
-echo NodeJS
-node --version
-echo Ruby
-ruby --version
-echo Ruby Gem
-gem --version
-echo Python
-python --version
