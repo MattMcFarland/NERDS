@@ -10,7 +10,7 @@ export PATH=$PATH:~/.local/lib/bin
 
 # Install Python 2.7.6
 cd $HOME/.src
-wget https://www.python.org/ftp/python/2.7.6/Python-2.7.6.tar.xz && tar xzvf *.xz && cd Py*
+wget https://www.python.org/ftp/python/2.7.6/Python-2.7.6.tar.xz && tar xjvf *.xz && cd Py*
 ./configure --prefix $HOME/.local 
 echo Installing Python 2.7.6 ... 
 make > $HOME/.src/log/Python-2.7.6.log && make install >> $HOME/.src/log/Python-2.7.6.log
