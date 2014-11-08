@@ -1,10 +1,11 @@
-NERS
-====
+# NERS
+Version 1.0.0
 
-Node Express Ruby Stack VM Boilerplate
+Node Express Ruby Stack 
 
+The purpose of NERS is to provide a non-conflicting and secure environment for Node JS and Ruby.  Node and Ruby will be installed to the user account, so you don't need to work with Node or Ruby as a super user.
 
-NERS is a lightweight web application development stack to run in a linux environment.  Node, Express, and Ruby will run only under your user's home directory, so you won't have to deal with annoying sudo commands.  The stack will be installed in ~/.local to avoid any conflicts with your system or other users.
+The stack will be installed in ~/.local to avoid any conflicts with your system or other users.
 
 NERS only requires a barebones linux system with compiling tools installed.
 
