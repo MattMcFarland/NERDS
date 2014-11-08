@@ -1,5 +1,6 @@
 #!bin/bash
-
+set -v off 
+echo NERS Installer v1.0.0  - This process will take up to 45 minutes.
 # Make basic scaffold
 cd $HOME
 mkdir $HOME/.src && mkdir $HOME/.local && mkdir $HOME/.src/log && mkdir $HOME/.local/bin && mkdir $HOME/.local/lib/bin
@@ -11,26 +12,17 @@ export PATH=$PATH:~/.local/lib/bin
 # Install Python 2.7.6
 cd $HOME/.src
 curl https://www.python.org/ftp/python/2.7.6/Python-2.7.6.tar.xz > Python-2.7.6.tar.xz && tar -xJvf *.xz && cd Py*
-echo Configuring Python 2.7.6 ...
-./configure --prefix $HOME/.local > HOME/.src/log/Python-2.7.6.log
-echo Installing Python 2.7.6 ... Process may take 10-30 mins
-make >> $HOME/.src/log/Python-2.7.6.log && make install >> $HOME/.src/log/Python-2.7.6.log
+./configure --prefix $HOME/.local && make && make install 
 
 # Install NodeJS
 cd $HOME/.src
 curl http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz > node-v0.10.33 && tar -xzvf node*.gz && cd node*
-echo Configuring NodeJS 0.10.33 ...
-./configure --prefix $HOME/.local > HOME/.src/log/node-v0.10.33.log
-echo Installing NodeJS 0.10.33 ... Process may take 10-30 mins
-make >> $HOME/.src/log/node-v0.10.33.log && make install >> $HOME/.src/log/node-v0.10.33.log
+./configure --prefix $HOME/.local && make && make install
 
 # Install Ruby
 cd $HOME/.src
 curl http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz > ruby-2.1.4 && tar -xzvf ruby-2.1.4.tar.gz && cd ruby-2.1.4
-echo Configuring Ruby 2.1.4 ...
-./configure --prefix $HOME/.local > $HOME/.src/log/ruby-2.1.4.log
-echo Installing Ruby 2.1.4 ... Process may take 10-30 mins
-make >> $HOME/.src/log/ruby-2.1.4.log && make install >> $HOME/.src/log/ruby-2.1.4.log
+./configure --prefix $HOME/.local && make && make install
 
 # Setup PATH exports
 echo Configuring PATH variables
