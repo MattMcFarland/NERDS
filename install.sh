@@ -14,7 +14,7 @@ wget http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz && tar xzvf node*.gz &
 
 cd ~/.src
 
-wget http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz && tar xzvf ruby*.gz cd ruby*
+wget http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz && tar xzvf ruby*.gz && cd ruby*
 
 ./configure --prefix ~/.local && make && make install && cd ~
 
