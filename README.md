@@ -22,7 +22,7 @@ sudo yum install gcc gpp make gcc-c++ gcc-gpp git wget curl -y
 
 Ubuntu/Debian
 ```bash
-sudo apt-get gcc gpp make gcc-c++ gcc-gpp g++ git wget curl -y
+sudo apt-get install gcc gpp make gcc-gpp g++ git wget curl -y
 ```
 
 #### Confirm Installation
