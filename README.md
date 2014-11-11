@@ -1,5 +1,5 @@
 # NERDS
-Version 1.0.0
+Version 1.0.1
 
 Node Express Ruby Development Stack 
 
@@ -34,3 +34,7 @@ ruby --version
 ```
 
 now get your dev on :)
+
+
+### Changelog
+1.0.1 - fixes to installation instructions
