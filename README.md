@@ -41,7 +41,7 @@ sudo apt-get install gcc gpp make g++ git -y
 Ubuntu
 ```bash
 sudo apt-get install build-essential checkinstall git -y
-
+```
 
 #### Confirm Installation
 
