@@ -1,5 +1,5 @@
 # NERDS
-Version 1.0.1
+Version 1.0.2
 
 Node Express Ruby Development Stack 
 
@@ -14,13 +14,15 @@ NERDS only requires a barebones linux system with compiling tools installed.
 #### Full stack (Node, Ruby, and Dependencies)
 
 The full stack will make and compile node, ruby, and python as a dependency.  This process can be time consuming, and for some environments a bit over-kill.  
-```
+
+```bash
 curl -L https://raw.githubusercontent.com/MattMcFarland/NERDS/master/install.sh | bash
 ```
+
 #### Node Only
 
 For a fast install of just node for a local user, use the following:
-```
+```bash
 curl -L https://raw.githubusercontent.com/MattMcFarland/NERDS/master/install-node.sh | bash
 ```
 
@@ -28,12 +30,12 @@ curl -L https://raw.githubusercontent.com/MattMcFarland/NERDS/master/install-nod
 
 CentOS/RHEL
 ```bash
-sudo yum install gcc gpp make gcc-c++ gcc-gpp git wget curl -y
+sudo yum install gcc gpp make gcc-c++ gcc-gpp git -y
 ```
 
 Ubuntu/Debian
 ```bash
-sudo apt-get install build-essential git wget curl -y
+sudo apt-get install gcc gpp make gcc-gpp git -y
 ```
 
 #### Confirm Installation
