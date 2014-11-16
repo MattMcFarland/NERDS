@@ -33,10 +33,15 @@ CentOS/RHEL
 sudo yum install gcc gpp make gcc-c++ gcc-gpp git -y
 ```
 
-Ubuntu/Debian
+Debian
 ```bash
 sudo apt-get install gcc gpp make g++ git -y
 ```
+
+Ubuntu
+```bash
+sudo apt-get install build-essential checkinstall git -y
+
 
 #### Confirm Installation
 
