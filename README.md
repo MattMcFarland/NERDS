@@ -35,7 +35,7 @@ sudo yum install gcc gpp make gcc-c++ gcc-gpp git -y
 
 Ubuntu/Debian
 ```bash
-sudo apt-get install gcc gpp make gcc-gpp git -y
+sudo apt-get install gcc gpp make gcc-gpp g++ git -y
 ```
 
 #### Confirm Installation
