@@ -1,5 +1,5 @@
 # NERDS
-Version 1.1.1~unreleased
+Version 1.1.2~unreleased
 
 NodeJS Express Ruby Development Stack 
 
@@ -56,3 +56,11 @@ now get your dev on :)
 
 ### Changelog
 1.0.1 - fixes to installation instructions
+
+1.0.2 - Ubunut instruction fix
+
+1.1.0 - Add nodejs only support and debian instruction fixes
+
+1.1.1 - debian instruction fixes
+
+1.1.2 - separate ubutnu and debian instructions (too different)
