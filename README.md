@@ -10,9 +10,20 @@ The stack will be installed in ~/.local to avoid any conflicts with your system 
 NERDS only requires a barebones linux system with compiling tools installed.
 
 ### How to install
+
+#### Full stack (Node, Ruby, and Dependencies)
+
+The full stack will make and compile node, ruby, and python as a dependency.  This process can be time consuming, and for some environments a bit over-kill.  
 ```
 curl -L https://raw.githubusercontent.com/MattMcFarland/NERDS/master/install.sh | bash
 ```
+#### Node Only
+
+For a fast install of just node for a local user, use the following:
+```
+curl -L https://raw.githubusercontent.com/MattMcFarland/NERDS/master/install-node.sh | bash
+```
+
 #### Make sure compiling tools are installed 
 
 CentOS/RHEL
