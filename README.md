@@ -1,5 +1,5 @@
 # NERDS
-Version 1.0.2
+Version 1.1.0
 
 Node Express Ruby Development Stack 
 
