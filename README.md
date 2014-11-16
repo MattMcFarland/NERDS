@@ -1,7 +1,7 @@
 # NERDS
 Version 1.1.0
 
-Node Express Ruby Development Stack 
+NodeJS Express Ruby Development Stack 
 
 The purpose of NERDS is to provide a non-conflicting and secure environment for Node JS and Ruby.  Node and Ruby will be installed to the user account, so you don't need to work with Node or Ruby as a super user.
 
@@ -19,7 +19,7 @@ The full stack will make and compile node, ruby, and python as a dependency.  Th
 curl -L https://raw.githubusercontent.com/MattMcFarland/NERDS/master/install.sh | bash
 ```
 
-#### Node Only
+#### NodeJS Only
 
 For a fast install of just node for a local user, use the following:
 ```bash
