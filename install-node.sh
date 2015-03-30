@@ -10,7 +10,7 @@ export PATH=$PATH:~/.local/lib/bin
 
 # Install NodeJS
 cd $HOME/.src
-curl http://nodejs.org/dist/v0.10.33/node-v0.10.33.tar.gz > node-v0.10.33.tar.gz && tar -xzvf node*.gz && cd node*
+curl http://nodejs.org/dist/v0.12.1/node-v0.12.1.tar.gz > nodejs.tar.gz && tar -xzvf nodejs.tar.gz && cd node*
 ./configure --prefix $HOME/.local && make && make install
 
 # Setup PATH exports
